@@ -13,6 +13,7 @@ import com.runa.airport.service_api.IFlightService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import javax.persistence.EntityNotFoundException;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
@@ -26,7 +27,8 @@ public class FlightService implements IFlightService {
 
     public WeightDto getWeight(int flightNumber, LocalDate date) {
         List<Flight> flights = flightRepository.findByFlightNumber(flightNumber);
-        Flight first = getFlightsOnDate(date, flights).stream().findFirst().orElseThrow(() -> new RuntimeException());
+        Flight first = getFlightsOnDate(date, flights).stream().findFirst().orElseThrow(() ->
+                new EntityNotFoundException(String.format("Unable to get flight with  %s number", flightNumber)));
         Cargo cargo = cargoService.findByFlightId(first.getFlightId());
         int cargoWeight = getWeight(cargo.getCargo());
         int baggageWeight = getWeight(cargo.getBaggage());
