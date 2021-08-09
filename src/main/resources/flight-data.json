@@ -1,0 +1,42 @@
+[
+  {
+    "_class": "com.runa.airport.model.Flight",
+    "flightId": 0,
+    "flightNumber": 8909,
+    "departureAirportIATACode": "YYT",
+    "arrivalAirportIATACode": "MIT",
+    "departureDate": "2018-11-23T09:18:55 -03:00"
+  },
+  {
+    "_class": "com.runa.airport.model.Flight",
+    "flightId": 1,
+    "flightNumber": 9117,
+    "departureAirportIATACode": "SEA",
+    "arrivalAirportIATACode": "LEW",
+    "departureDate": "2021-05-03T11:49:29 -03:00"
+  },
+  {
+    "_class": "com.runa.airport.model.Flight",
+    "flightId": 2,
+    "flightNumber": 8700,
+    "departureAirportIATACode": "LAX",
+    "arrivalAirportIATACode": "KRK",
+    "departureDate": "2020-11-15T09:55:06 -03:00"
+  },
+  {
+    "_class": "com.runa.airport.model.Flight",
+    "flightId": 3,
+    "flightNumber": 3570,
+    "departureAirportIATACode": "ANC",
+    "arrivalAirportIATACode": "KRK",
+    "departureDate": "2021-02-10T12:59:31 -03:00"
+  },
+  {
+    "_class": "com.runa.airport.model.Flight",
+    "flightId": 4,
+    "flightNumber": 8746,
+    "departureAirportIATACode": "ANC",
+    "arrivalAirportIATACode": "MIT",
+    "departureDate": "2019-04-02T03:38:53 -03:00"
+  }
+]

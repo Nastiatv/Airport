@@ -1,0 +1,371 @@
+[
+  {
+    "_class": "com.runa.airport.model.Cargo",
+    "flightId": 0,
+    "baggage": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 713,
+        "weightUnit": "kg",
+        "pieces": 340
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 988,
+        "weightUnit": "lb",
+        "pieces": 992
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 272,
+        "weightUnit": "kg",
+        "pieces": 693
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 885,
+        "weightUnit": "lb",
+        "pieces": 664
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 4,
+        "weight": 480,
+        "weightUnit": "kg",
+        "pieces": 822
+      }
+    ],
+    "cargo": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 426,
+        "weightUnit": "kg",
+        "pieces": 728
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 416,
+        "weightUnit": "kg",
+        "pieces": 47
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 865,
+        "weightUnit": "lb",
+        "pieces": 353
+      }
+    ]
+  },
+  {
+    "_class": "com.runa.airport.model.Cargo",
+    "flightId": 1,
+    "baggage": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 49,
+        "weightUnit": "kg",
+        "pieces": 220
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 730,
+        "weightUnit": "kg",
+        "pieces": 195
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 737,
+        "weightUnit": "lb",
+        "pieces": 355
+      }
+    ],
+    "cargo": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 957,
+        "weightUnit": "lb",
+        "pieces": 908
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 126,
+        "weightUnit": "lb",
+        "pieces": 712
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 372,
+        "weightUnit": "lb",
+        "pieces": 868
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 827,
+        "weightUnit": "lb",
+        "pieces": 428
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 4,
+        "weight": 726,
+        "weightUnit": "kg",
+        "pieces": 450
+      }
+    ]
+  },
+  {
+    "_class": "com.runa.airport.model.Cargo",
+    "flightId": 2,
+    "baggage": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 978,
+        "weightUnit": "lb",
+        "pieces": 710
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 110,
+        "weightUnit": "kg",
+        "pieces": 9
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 696,
+        "weightUnit": "lb",
+        "pieces": 361
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 951,
+        "weightUnit": "kg",
+        "pieces": 324
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 4,
+        "weight": 562,
+        "weightUnit": "kg",
+        "pieces": 375
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 5,
+        "weight": 778,
+        "weightUnit": "lb",
+        "pieces": 545
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 6,
+        "weight": 65,
+        "weightUnit": "kg",
+        "pieces": 348
+      }
+    ],
+    "cargo": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 693,
+        "weightUnit": "lb",
+        "pieces": 432
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 53,
+        "weightUnit": "lb",
+        "pieces": 243
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 453,
+        "weightUnit": "kg",
+        "pieces": 576
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 405,
+        "weightUnit": "lb",
+        "pieces": 129
+      }
+    ]
+  },
+  {
+    "_class": "com.runa.airport.model.Cargo",
+    "flightId": 3,
+    "baggage": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 204,
+        "weightUnit": "lb",
+        "pieces": 81
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 769,
+        "weightUnit": "kg",
+        "pieces": 742
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 453,
+        "weightUnit": "lb",
+        "pieces": 392
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 220,
+        "weightUnit": "lb",
+        "pieces": 14
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 4,
+        "weight": 310,
+        "weightUnit": "kg",
+        "pieces": 109
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 5,
+        "weight": 918,
+        "weightUnit": "lb",
+        "pieces": 909
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 6,
+        "weight": 247,
+        "weightUnit": "kg",
+        "pieces": 983
+      }
+    ],
+    "cargo": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 728,
+        "weightUnit": "lb",
+        "pieces": 651
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 65,
+        "weightUnit": "kg",
+        "pieces": 342
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 803,
+        "weightUnit": "kg",
+        "pieces": 998
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 101,
+        "weightUnit": "kg",
+        "pieces": 10
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 4,
+        "weight": 134,
+        "weightUnit": "kg",
+        "pieces": 67
+      }
+    ]
+  },
+  {
+    "_class": "com.runa.airport.model.Cargo",
+    "flightId": 4,
+    "baggage": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 86,
+        "weightUnit": "lb",
+        "pieces": 351
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 877,
+        "weightUnit": "kg",
+        "pieces": 555
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 894,
+        "weightUnit": "kg",
+        "pieces": 403
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 520,
+        "weightUnit": "kg",
+        "pieces": 921
+      }
+    ],
+    "cargo": [
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 0,
+        "weight": 291,
+        "weightUnit": "kg",
+        "pieces": 299
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 1,
+        "weight": 455,
+        "weightUnit": "lb",
+        "pieces": 194
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 2,
+        "weight": 629,
+        "weightUnit": "lb",
+        "pieces": 102
+      },
+      {
+        "_class": "com.runa.airport.model.Baggage",
+        "id": 3,
+        "weight": 253,
+        "weightUnit": "lb",
+        "pieces": 909
+      }
+    ]
+  }
+]
