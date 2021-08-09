@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "f0fbd9c3-cff7-4a74-bced-5afa6bb5482e",
+		"name": "airport",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/flight/amount/ANC",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flight/amount/LAX/2020-11-15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flight",
+						"amount",
+						"LAX",
+						"2020-11-15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/flight/weight/9117/2021-05-03",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flight/weight/9117/2021-05-03",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flight",
+						"weight",
+						"9117",
+						"2021-05-03"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
