@@ -12,6 +12,7 @@ import com.runa.airport.service_api.ICargoService;
 import com.runa.airport.service_api.IFlightService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.EntityNotFoundException;
 import java.time.LocalDate;
@@ -21,6 +22,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
+@Transactional(rollbackFor = Exception.class, readOnly = true)
 public class FlightService implements IFlightService {
     private final IFlightRepository flightRepository;
     private final ICargoService cargoService;

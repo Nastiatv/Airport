@@ -5,11 +5,13 @@ import com.runa.airport.repository.ICargoRepository;
 import com.runa.airport.service_api.ICargoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Set;
 
 @Service
 @RequiredArgsConstructor
+@Transactional(rollbackFor = Exception.class, readOnly = true)
 public class CargoService implements ICargoService {
     private final ICargoRepository cargoRepository;
 
